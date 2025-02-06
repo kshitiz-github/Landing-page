@@ -1,0 +1,29 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+}
+.headerstuff{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: #1F2937;
+    
+    flex-direction: row;
+}
+.hlogo{
+    font-weight: bold;
+    margin-top: 12px;
+
+}
+.hlinks{
+    display: flex;
+    gap:10px;
+    margin-top: 12px;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
