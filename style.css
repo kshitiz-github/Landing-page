@@ -23,7 +23,120 @@
     margin-top: 12px;
 }
 .hero{
+
     display: flex;
     justify-content: space-around;
-    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
+    background-color: #1F2937;
+    padding:190px;
+
 }
+.textnbutton{
+    flex:1;
+    width:60%;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    flex-wrap: wrap;
+}
+.bigtext{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.subtext{
+    font-size: 18px;
+    color: #F9FAF8;
+}
+button{
+    color: #F9FAF8;
+    background-color:#3882F6;
+    width: 100px;
+    border-radius: 12px;
+    font-weight: 500;
+    padding: 5px 15px;
+}
+img{
+    width: 400px;
+    height: 300px;
+    justify-content: space-between;
+    display: block;
+    background-color: grey;
+    margin-left: 60px;
+}
+.btitle{
+    font-size: 36px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 900;
+    color:#1F2937;
+}
+.rectangle{
+    display: flex;
+    gap:30px;
+    margin-top: 50px;
+    justify-content: center; 
+    margin-bottom: 170px;
+}
+.rectangle1{
+    width: 120px;
+    height: 120px;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+}
+.rectext{
+    margin-top: 120px;
+}
+.greypatch{
+    display:flex;
+    background-color: lightgray;
+    padding:200px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap:14px;
+}
+.quotetext{
+    font-style: italic;
+}
+.quoteby{
+    font-weight: 900;
+}
+.ads{
+    display: flex;
+    padding: 40px;
+    background-color: #3882F6;
+    margin:120px;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    border-radius: 12px;
+}
+.adss{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.adstitle, .adstext{
+    color: white;
+    font-size: 21px;
+    margin-left: 110px;
+}
+.adstext{
+    font-size: 16px;
+}
+.adsbutton{
+    margin-right: 60px;
+}
+.adsbutton button{
+    background-color: white;
+    color: #3882F6;;
+}
+footer{
+    padding:80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
